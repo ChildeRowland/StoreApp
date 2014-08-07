@@ -36,6 +36,19 @@ Elective:
 
 3.
 
+Git Help:
+
+Create a Reposotory
+Add a collaborator on GitHub.  
+Another user clones the repository.  Then:
+	git checkout -b #enter-branch-name
+	make changes to the code
+	git add -A 
+	git commit -m "message for the changes"
+	git push origin #enter-branch-name
+Now the owner of the repository clicks the merge branches button on git GitHub.
+The collaborator uses git pull to update the repository.
+
 
 =begin
 Completed:
